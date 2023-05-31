@@ -2,8 +2,9 @@
     border-radius: 50px;
 }
 .navbar{
-    padding-left: 2.8rem;
-    padding-right: 1.8rem;
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+    background-color: #121212;
 }
 .nav-item{
     padding: 0 0.8rem 0;
@@ -14,4 +15,29 @@
 }
 .navbar-toggler{
     border:none;
+}
+body{
+    background-color: #121212;
+    
+}
+h1{
+    font-family: 'Roboto';
+    font-weight: 900;
+    font-size: 122px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 120vh;
+    color: #fff;
+}
+.copyright{
+    font-family: 'Inter';
+    font-weight: 400;
+    text-align: center;
+    color: #fff;
+    
+}
+.navbar-brand{
+    font-family: 'Montserrat';
 }
