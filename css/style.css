@@ -5,6 +5,7 @@
     padding-left: 1rem;
     padding-right: 0.7rem;
     background-color: #121212;
+    
 }
 .nav-item{
     padding: 0 0.8rem 0;
@@ -15,18 +16,14 @@
 }
 body{
     background-color: #121212;
+    padding: 0;
+    margin: 0;
     
 }
-h1{
-    font-family: 'Roboto';
-    font-weight: 900;
-    font-size: 10vw;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    height: 105vh;
-    color: #fff;
+.main-img{
+    height: 100vh;
+    width: 100vw;
+    display: block;
     
 }
 .copyright{
@@ -34,9 +31,27 @@ h1{
     font-weight: 400;
     text-align: center;
     color: #fff;
+    padding-top: 1rem;
+    padding-bottom: 0;
     
     
 }
 .navbar-brand{
     font-family: 'Montserrat';
+}
+body {
+    padding-top: 90px;
+}
+@media (max-width:640px) {
+    .top-container{
+        background: url('card1_crop.jpg') no-repeat center/cover;
+    }
+    .main-img{
+        
+        width: 0%;
+    }
+}
+footer{
+    margin: 0;
+    padding: 0;
 }
