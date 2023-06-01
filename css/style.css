@@ -5,6 +5,7 @@
     padding-left: 1rem;
     padding-right: 0.7rem;
     background-color: #121212;
+    width: 100vw;
     
 }
 .nav-item{
@@ -21,7 +22,7 @@ body{
     
 }
 .main-img{
-    height: 100vh;
+    height: 90vh;
     width: 100vw;
     display: block;
     
@@ -42,16 +43,31 @@ body{
 body {
     padding-top: 90px;
 }
-@media (max-width:640px) {
+@media (max-width:600px) {
     .top-container{
         background: url('card1_crop.jpg') no-repeat center/cover;
     }
     .main-img{
         
         width: 0%;
+        height: 85vh;
     }
+    .navbar{
+        padding: 0;
+    }
+    .nav-item{
+        padding: 0;
+    }
+   
 }
+
 footer{
     margin: 0;
     padding: 0;
+}
+a{
+    text-decoration: none;
+}
+.developer{
+    text-decoration: underline;
 }
